@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.voglo.edison.vogloclient.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.08" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="22dp"
+        android:text="@string/textView1"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <Button
+        android:id="@+id/buttonServices"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="@string/buttonServices"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <Button
+        android:id="@+id/buttonUsers"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="@string/buttonUsers"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="151dp" />
+</LinearLayout>
